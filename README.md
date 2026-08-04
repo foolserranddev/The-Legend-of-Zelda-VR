@@ -2,6 +2,10 @@
 
 A virtual-reality reimagining of the original *The Legend of Zelda*, designed to preserve the character and nostalgia of the NES game while presenting its world in immersive 3D.
 
+## Gameplay Walkthroughs
+
+See the game in action through the development walkthroughs on the [Fool's Errand Gaming YouTube channel](https://www.youtube.com/@foolserrandgaming6082/videos). These videos are also useful references for the intended look, scale, interactions, and behavior when evaluating a contribution or reporting a regression.
+
 ## Contributions Welcome
 
 Support, fixes, and improvements are welcome—especially:
@@ -22,6 +26,8 @@ For examples of the current upper-end quality target, see:
 - The Fish Statue
 - The Bird Statue
 - Gleeok
+- Aquamentus
+- Darknut
 
 New or revised assets should aim for a similar balance: recognizable NES-era silhouettes and colors, clean geometry, and enough detail and animation to feel intentional in VR without losing the original aesthetic.
 
