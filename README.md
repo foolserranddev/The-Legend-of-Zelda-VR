@@ -44,6 +44,10 @@ The highest-priority candidates for improved models, rigging, or animation are:
 5. Zora
 6. Moblins
 
+### Gameplay Wishlist
+
+A particularly welcome future improvement would be replacing the current crossbow-style weapon with a true VR bow: one that the player holds in one hand and physically draws back with the other before releasing the arrow. Any implementation should feel natural across supported controllers and preserve the game's existing item-selection and arrow-inventory rules.
+
 ## Unity Migration Note
 
 This project was recently migrated from Unity **2017.3.0f3** to Unity **2021.3.45f1** and updated for modern XR targets. Although many migration regressions have already been corrected, lingering or unexpected effects may remain—particularly in physics, shaders/materials, model importing, animation, nested rigidbodies, input behavior, and scene-specific prefab instances.
