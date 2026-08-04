@@ -1,0 +1,360 @@
+fileFormatVersion: 2
+guid: fd982eae71defc941aba9ba5e4aac75d
+timeCreated: 1488032968
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d000000
+  assetHash:
+    serializedVersion: 2
+    Hash: d13025656735222a4d9f69d2d9bc9bcb
+  longitude: -105.242139
+  latitude: 40.018309
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: -95.02388, y: 21.48784, z: -32.270058}
+      lookAt: {x: -94.75127, y: -10.9711075, z: -2.103546}
+      up: {x: 0.006619212, y: 0.6807818, z: 0.73245645}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: GreenRock
+    100002: Group 10
+    100004: Group 12
+    100006: Group 14
+    100008: Group 16
+    100010: Group 18
+    100012: Group 20
+    100014: Group 22
+    100016: Group 24
+    100018: Group 28
+    100020: Group 3
+    100022: Group 32
+    100024: Group 36
+    100026: Group 38
+    100028: Group 40
+    100030: Group 42
+    100032: Group 44
+    100034: Group 46
+    100036: Group 48
+    100038: Group 5
+    100040: Group 50
+    100042: Group 52
+    100044: Group 54
+    100046: Group 56
+    100048: Group 58
+    100050: Group 60
+    100052: Group 62
+    100054: Group 64
+    100056: Group 66
+    100058: Group 68
+    100060: Group 70
+    100062: Group 72
+    100064: Group 74
+    100066: Group 76
+    100068: HiddenDoors
+    100070: Image 2
+    100072: Land
+    100074: Mountains
+    100076: Platforms
+    100078: //RootNode
+    400000: GreenRock
+    400002: Group 10
+    400004: Group 12
+    400006: Group 14
+    400008: Group 16
+    400010: Group 18
+    400012: Group 20
+    400014: Group 22
+    400016: Group 24
+    400018: Group 28
+    400020: Group 3
+    400022: Group 32
+    400024: Group 36
+    400026: Group 38
+    400028: Group 40
+    400030: Group 42
+    400032: Group 44
+    400034: Group 46
+    400036: Group 48
+    400038: Group 5
+    400040: Group 50
+    400042: Group 52
+    400044: Group 54
+    400046: Group 56
+    400048: Group 58
+    400050: Group 60
+    400052: Group 62
+    400054: Group 64
+    400056: Group 66
+    400058: Group 68
+    400060: Group 70
+    400062: Group 72
+    400064: Group 74
+    400066: Group 76
+    400068: HiddenDoors
+    400070: Image 2
+    400072: Land
+    400074: Mountains
+    400076: Platforms
+    400078: //RootNode
+    2300000: GreenRock
+    2300002: Group 10
+    2300004: Group 12
+    2300006: Group 14
+    2300008: Group 16
+    2300010: Group 18
+    2300012: Group 20
+    2300014: Group 22
+    2300016: Group 24
+    2300018: Group 28
+    2300020: Group 3
+    2300022: Group 32
+    2300024: Group 36
+    2300026: Group 38
+    2300028: Group 40
+    2300030: Group 42
+    2300032: Group 44
+    2300034: Group 46
+    2300036: Group 48
+    2300038: Group 5
+    2300040: Group 50
+    2300042: Group 52
+    2300044: Group 54
+    2300046: Group 56
+    2300048: Group 58
+    2300050: Group 60
+    2300052: Group 62
+    2300054: Group 64
+    2300056: Group 66
+    2300058: Group 68
+    2300060: Group 70
+    2300062: Group 72
+    2300064: Group 74
+    2300066: Group 76
+    2300068: HiddenDoors
+    2300070: Image 2
+    2300072: Land
+    2300074: Mountains
+    2300076: //RootNode
+    3300000: GreenRock
+    3300002: Group 10
+    3300004: Group 12
+    3300006: Group 14
+    3300008: Group 16
+    3300010: Group 18
+    3300012: Group 20
+    3300014: Group 22
+    3300016: Group 24
+    3300018: Group 28
+    3300020: Group 3
+    3300022: Group 32
+    3300024: Group 36
+    3300026: Group 38
+    3300028: Group 40
+    3300030: Group 42
+    3300032: Group 44
+    3300034: Group 46
+    3300036: Group 48
+    3300038: Group 5
+    3300040: Group 50
+    3300042: Group 52
+    3300044: Group 54
+    3300046: Group 56
+    3300048: Group 58
+    3300050: Group 60
+    3300052: Group 62
+    3300054: Group 64
+    3300056: Group 66
+    3300058: Group 68
+    3300060: Group 70
+    3300062: Group 72
+    3300064: Group 74
+    3300066: Group 76
+    3300068: HiddenDoors
+    3300070: Image 2
+    3300072: Land
+    3300074: Mountains
+    3300076: //RootNode
+    4300000: Mesh Zelda Map Raised
+    4300002: Mesh Zelda Map Raised
+    4300004: Mesh Group 3
+    4300006: Mesh Group 5
+    4300008: Mesh GreenRock
+    4300010: Mesh Group 10
+    4300012: Mesh Group 20
+    4300014: Mesh Group 22
+    4300016: Mesh Group 24
+    4300018: Mesh Mountains
+    4300020: Mesh Group 28
+    4300022: Mesh Land
+    4300024: Mesh Group 32
+    4300026: Mesh HiddenDoors
+    4300028: Mesh Group 36
+    4300030: Mesh Group 38
+    4300032: Mesh Group 40
+    4300034: Mesh Group 42
+    4300036: Mesh Group 44
+    4300038: Mesh Group 46
+    4300040: Mesh Group 48
+    4300042: Mesh Group 50
+    4300044: Mesh Group 52
+    4300046: Mesh Group 54
+    4300048: Mesh Group 56
+    4300050: Mesh Group 58
+    4300052: Mesh Group 60
+    4300054: Mesh Group 62
+    4300056: Mesh Group 64
+    4300058: Mesh Group 66
+    4300060: Mesh Group 68
+    4300062: Mesh Group 70
+    4300064: Mesh Group 72
+    4300066: Mesh Group 74
+    4300068: Mesh Group 76
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material 3
+    second: {fileID: 2100000, guid: 61b079d1eff8c0445a3f216e71fb853c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color C01]'
+    second: {fileID: 2100000, guid: 55644e5627a31af47b93a94f8edc6e11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color M05]'
+    second: {fileID: 2100000, guid: 520ffae1f59c5ed4e929971405362600, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _1
+    second: {fileID: 2100000, guid: fb4d76c81ddf06b4794a47e54a33c635, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _10
+    second: {fileID: 2100000, guid: 0fe34f0e0dad66a438146549adc3c829, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _2
+    second: {fileID: 2100000, guid: 719be21241dabfa449600d81bc77b347, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _4
+    second: {fileID: 2100000, guid: 412ad2faa46baae4e98e292c243f0c84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _5
+    second: {fileID: 2100000, guid: 368d9aa561e115b4ea9eba1487b6ae70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _7
+    second: {fileID: 2100000, guid: 373ca14f6944bbf49809cdbe2c756299, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _8
+    second: {fileID: 2100000, guid: 9fa7147ca77fef348895af9ea5effde4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _9
+    second: {fileID: 2100000, guid: ebd5de3413368604098e468d57f8428a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat
+    second: {fileID: 2100000, guid: cb1713ca7f91e63448e58472eb5fc9b8, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

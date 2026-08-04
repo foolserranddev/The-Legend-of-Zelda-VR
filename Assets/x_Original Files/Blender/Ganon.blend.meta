@@ -1,0 +1,151 @@
+fileFormatVersion: 2
+guid: 136b1af8c9a1cb543959a07dc002b79e
+timeCreated: 1547923151
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Armature
+    100004: Femur_Left
+    100006: Femur_Right
+    100008: Foot_Left
+    100010: Foot_Right
+    100012: Hand_Left
+    100014: Hand_Right
+    100016: Head
+    100018: Humerus_Left
+    100020: Humerus_Left_001
+    100022: Humerus_Right
+    100024: Index
+    100026: Index_Left
+    100028: Middle
+    100030: Middle_Left
+    100032: Pinky
+    100034: Pinky_Left
+    100036: Plane
+    100038: Radius_Right
+    100040: Shoulder_Left
+    100042: Shoulder_Right
+    100044: Thumb
+    100046: Thumb_Left
+    100048: Tibia_Right
+    100050: TibiaLeft
+    100052: Torso
+    400000: //RootNode
+    400002: Armature
+    400004: Femur_Left
+    400006: Femur_Right
+    400008: Foot_Left
+    400010: Foot_Right
+    400012: Hand_Left
+    400014: Hand_Right
+    400016: Head
+    400018: Humerus_Left
+    400020: Humerus_Left_001
+    400022: Humerus_Right
+    400024: Index
+    400026: Index_Left
+    400028: Middle
+    400030: Middle_Left
+    400032: Pinky
+    400034: Pinky_Left
+    400036: Plane
+    400038: Radius_Right
+    400040: Shoulder_Left
+    400042: Shoulder_Right
+    400044: Thumb
+    400046: Thumb_Left
+    400048: Tibia_Right
+    400050: TibiaLeft
+    400052: Torso
+    2100000: troll_low_troll_body_mat_AlbedoTransparency_001__null_003
+    2100002: troll_low_troll_body_mat_AlbedoTransparency_001
+    2100004: None__Ganon1_png
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: troll_body_low_001
+    4300002: Plane
+    7400000: Default Take
+    9500000: //RootNode
+    13700000: Plane
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

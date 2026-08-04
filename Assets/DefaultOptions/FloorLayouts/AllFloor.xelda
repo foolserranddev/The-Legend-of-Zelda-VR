@@ -1,0 +1,21 @@
+{
+    "LayoutName": "AllFloorLayout",
+    "LayoutBmpPath": "AllFloor.bmp",
+    "Iterables": [        {
+            "Location": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "FloorAssetBundle": "",
+            "FloorAsset": "DungeonFloorTile",
+            "LocationOffset": {
+                "x": 0.0,
+                "y": 0.2,
+                "z": 0.0
+            },
+            "Passable": true,
+            "PassWithPrefab": ""
+        }
+]
+}

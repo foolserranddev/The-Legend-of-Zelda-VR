@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1624596502995492}
+  m_IsPrefabParent: 1
+--- !u!1 &1624596502995492
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4537786181123462}
+  - component: {fileID: 33787644106935724}
+  - component: {fileID: 23026336947139254}
+  - component: {fileID: 54208635513069504}
+  - component: {fileID: 135783360988355472}
+  - component: {fileID: 114737937076971226}
+  m_Layer: 8
+  m_Name: PolsVoice
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4537786181123462
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1624596502995492}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.6900024, y: 0.22, z: 1.33}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23026336947139254
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1624596502995492}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 266d348329e03f040931098764bd87fe, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33787644106935724
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1624596502995492}
+  m_Mesh: {fileID: 4300000, guid: a4d6ea4cd7f4c8f4bb76e2c0e351e8dc, type: 3}
+--- !u!54 &54208635513069504
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1624596502995492}
+  serializedVersion: 2
+  m_Mass: 0.0000001
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!114 &114737937076971226
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1624596502995492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40802f5cd71500142b28be123fa33ded, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dieOnceAndForever: 0
+  HitSound: {fileID: 8300000, guid: b7dcddf1b32144242b83312627cdb67d, type: 3}
+  DeathPrefab: {fileID: 1939991878512600, guid: 343f42acd5d099f49a42f3d3c0d43c6f,
+    type: 2}
+  DeathPrefabHeightOffset: 0
+  enemyGroup: 2
+  HitMaterials:
+  - {fileID: 2100000, guid: 266d348329e03f040931098764bd87fe, type: 2}
+  - {fileID: 2100000, guid: 358f4750ebc708d4a8463aed052853eb, type: 2}
+  - {fileID: 2100000, guid: ac9129d166ac2ce4394a173bcd5494c1, type: 2}
+  - {fileID: 2100000, guid: 35272571b9362b145819dbc30fc06938, type: 2}
+  MinX: 0.7
+  MinZ: 0.7
+  MaxX: 15.5
+  MaxZ: 15.5
+  MaxHealth: 4.5
+  damageDealt: 2
+  dropPercent: 0.25
+  isStunnable: 1
+  stunAmount: 3
+  invulnerable: 0
+  partOfALargerMob: 0
+  weakToArrows: 1
+  dead: 0
+  ClockStun: 0
+  yThrowMin: 10
+  yThrowmax: 20
+  horizontalThrowStrength: 30
+  jumpDelay: 1
+  minSequentialJumps: 1
+  maxSequentialJumps: 2
+--- !u!135 &135783360988355472
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1624596502995492}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.43
+  m_Center: {x: -0.00073346496, y: 0.4, z: 0.012205213}

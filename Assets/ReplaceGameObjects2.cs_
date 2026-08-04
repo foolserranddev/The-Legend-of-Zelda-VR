@@ -1,0 +1,38 @@
+﻿using UnityEngine;
+using UnityEditor;
+using System.Collections;
+// CopyComponents - by Michael L. Croswell for Colorado Game Coders, LLC
+// March 2010
+
+public class ReplaceGameObjects2 : ScriptableWizard
+{
+    public bool copyValues = true;
+    public GameObject useGameObject;
+    public GameObject Replace;
+
+    [MenuItem("Custom/Replace GameObjects2")]
+
+
+    static void CreateWizard()
+    {
+        ScriptableWizard.DisplayWizard("Replace GameObjects2", typeof(ReplaceGameObjects2), "Replace");
+    }
+
+    void OnWizardCreate()
+    {
+        Transform[] Replaces = Replace.GetComponentsInChildren<Transform>(); ;
+
+        for (int i = 1; i < Replaces.Length; i++)
+        {
+            if (Replaces[i].GetComponentsInChildren<Transform>().Length == 1)
+            {
+                GameObject newObject;
+                newObject = (GameObject)PrefabUtility.InstantiatePrefab(useGameObject);
+                newObject.transform.position = Replaces[i].position;
+                newObject.transform.rotation = Replaces[i].rotation;
+                newObject.transform.parent = Replaces[i].transform.parent;
+                DestroyImmediate(Replaces[i].gameObject);
+            }
+        }
+    }
+}

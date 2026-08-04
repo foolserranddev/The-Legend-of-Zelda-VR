@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1760676262822392}
+  m_IsPrefabParent: 1
+--- !u!1 &1760676262822392
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4116783315902926}
+  - component: {fileID: 33533523079258100}
+  - component: {fileID: 23233327430035606}
+  - component: {fileID: 54282322236206244}
+  - component: {fileID: 136593662362218552}
+  - component: {fileID: 114098124193943086}
+  m_Layer: 8
+  m_Name: Moblin Black
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4116783315902926
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1760676262822392}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 58.77664, y: 2.0000138, z: 82.4749}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23233327430035606
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1760676262822392}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 5b2156e156d13bb41a5774f50f2a2316, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33533523079258100
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1760676262822392}
+  m_Mesh: {fileID: 4300000, guid: e0319996446ba05479a8a68586a3d929, type: 3}
+--- !u!54 &54282322236206244
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1760676262822392}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 116
+  m_CollisionDetection: 0
+--- !u!114 &114098124193943086
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1760676262822392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78e5aa34619179f4db5d2735896f96aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dieOnceAndForever: 0
+  HitSound: {fileID: 8300000, guid: b7dcddf1b32144242b83312627cdb67d, type: 3}
+  DeathPrefab: {fileID: 1939991878512600, guid: 343f42acd5d099f49a42f3d3c0d43c6f,
+    type: 2}
+  DeathPrefabHeightOffset: 0
+  enemyGroup: 1
+  HitMaterials:
+  - {fileID: 2100000, guid: 5b2156e156d13bb41a5774f50f2a2316, type: 2}
+  - {fileID: 2100000, guid: ec88f52ff53bff0438e86554c56d2f0c, type: 2}
+  - {fileID: 2100000, guid: 8db44ad6e34a5fa42b536a106063788b, type: 2}
+  - {fileID: 2100000, guid: e3aee8578861f0141b571553aad0cd4b, type: 2}
+  MinX: 0.5
+  MinZ: 0.5
+  MaxX: 15.5
+  MaxZ: 15.5
+  MaxHealth: 1.5
+  damageDealt: 0.5
+  dropPercent: 0.25
+  isStunnable: 1
+  stunAmount: 3
+  invulnerable: 0
+  partOfALargerMob: 0
+  weakToArrows: 0
+  dead: 0
+  ClockStun: 0
+  hitKnockback: 1
+  ProjectilePrefab: {fileID: 1090545656915536, guid: 95ac08099b7c8cc44a7c5bc9b8499f5c,
+    type: 2}
+  shootTowardPlayer: 0
+  DamageDealtOverride: 0
+  DisableShieldBlocking: 0
+  projectileMinRateOfFire: 2
+  projectileMaxRateOfFire: 4
+  projectileForwardOffset: 0
+  projectileUpOffset: 1.1
+  projectileRightOffset: 0
+  ProjectileRotation: {x: -90, y: 0, z: 0}
+  isMobile: 1
+  speed: 3
+  minSpeed: 1
+  lockXMovement: 0
+  lockZMovement: 0
+  rotate: 1
+  minMoveTime: 5
+  maxMoveTime: 5
+  SpherecastRadius: 0.6
+  RotatePercent: 1
+  MinDistanceToMove: 0.9
+--- !u!136 &136593662362218552
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1760676262822392}
+  m_Material: {fileID: 13400000, guid: bc7ba6289de14a246be22ab72166f69c, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.3
+  m_Height: 1.43
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.6968874, z: 0.08}

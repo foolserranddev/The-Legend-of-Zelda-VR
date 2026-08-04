@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - projectile
+  - TeleportIgnore
+  - FxTemporaire
+  - Wall
+  - Enemy
+  - Collectible
+  - Ocean
+  - Zora
+  - Armos
+  - Boomerang
+  - Water
+  - RightHand
+  - Item
+  - Bridge
+  - Heart Container
+  - Enemy Projectile
+  - BombLive
+  - Bomb
+  - Fire
+  - Boulder
+  - LeftHand
+  - Sword
+  - BowAndArrow
+  - InvisibleCollider
+  - Arrow
+  - BlinkySword
+  - Meat
+  - Darkroom
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Enemies
+  - Trees
+  - Walls
+  - FireLayer
+  - Player
+  - Enemy Projectile
+  - Shield
+  - Ground
+  - BigShieldProjectile
+  - Unblockable Projectile
+  - Big Shield
+  - Player Projectile
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

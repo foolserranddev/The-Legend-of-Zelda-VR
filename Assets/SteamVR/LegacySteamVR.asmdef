@@ -1,0 +1,4 @@
+{
+  "name": "ZeldaVR.LegacySteamVR.Disabled",
+  "defineConstraints": ["ZELDA_ENABLE_LEGACY_STEAMVR"]
+}

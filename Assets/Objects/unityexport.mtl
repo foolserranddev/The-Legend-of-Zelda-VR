@@ -1,0 +1,13 @@
+newmtl troll_low_troll_body_mat_AlbedoTransparency
+Kd 1 1 1
+Ks 0.1999999 0.1999999 0.1999999
+map_Kd null
+map_Bump null
+illum 2
+
+newmtl troll_hair
+Kd 1 1 1
+map_Kd null
+map_Bump null
+illum 2
+

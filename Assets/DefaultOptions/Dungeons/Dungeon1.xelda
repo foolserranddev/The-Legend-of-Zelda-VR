@@ -1,0 +1,82 @@
+{
+    "DungeonMusic": "Dungeon.mp3",
+    "EntranceSection": {
+        "x": 13.0,
+        "y": 0.0,
+        "z": 7.0
+    }
+    "EntranceOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    }
+    "DungeonSections": [
+        {
+            "Location": {
+                "x": 14.0,
+                "y": 0.0,
+                "z": 7.0
+            },
+		"FloorLayouts": ["AllFloor"],
+		"DecorLayouts": [],
+            "MonsterJSONs": ["3Bats"],
+            "Items": [
+                {
+                    "ItemPrefab": "Key",
+                    "RevealUponRoomClear": true,
+                    "Location": {
+                        "x": 2.0,
+                        "y": 0.0,
+                        "z": 13.0
+                    }
+                }
+            ],
+            "NorthDoor": {
+                "Type": "Wall",
+                "TrapOpensUponRoomClear": false
+            },
+            "EastDoor": {
+                "Type": "Pass",
+                "TrapOpensUponRoomClear": false
+            },
+            "SouthDoor": {
+                "Type": "Wall",
+                "TrapOpensUponRoomClear": false
+            },
+            "WestDoor": {
+                "Type": "Wall",
+                "TrapOpensUponRoomClear": false
+            },
+            "DarkRoom": false
+        },
+        {
+            "Location": {
+                "x": 13.0,
+                "y": 0.0,
+                "z": 7.0
+            },
+		"FloorLayouts": ["AllFloor"],
+		"DecorLayouts": [],
+            "MonsterJSONs": [],
+            "Items": [],
+            "NorthDoor": {
+                "Type": "Lock",
+                "TrapOpensUponRoomClear": false
+            },
+            "EastDoor": {
+                "Type": "Pass",
+                "TrapOpensUponRoomClear": false
+            },
+            "SouthDoor": {
+                "Type": "Exit",
+                "TrapOpensUponRoomClear": false
+            },
+            "WestDoor": {
+                "Type": "Pass",
+                "TrapOpensUponRoomClear": false
+            },
+            "DarkRoom": false
+        }
+
+    ],
+}

@@ -1,0 +1,237 @@
+fileFormatVersion: 2
+guid: 89d4610ec3503fe46af80948c5c6bf0c
+timeCreated: 1496059045
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 0728c2e24512f9f92ec07c986d9d8397
+  longitude: -105.242139
+  latitude: 40.018309
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: -28.986767, y: 13.588754, z: 19.063019}
+      lookAt: {x: -22.730724, y: 11.9302025, z: 16.389608}
+      up: {x: 0.21779604, y: 0.97154653, z: -0.09307136}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BombDoor
+    100002: //RootNode
+    100004: DungeonDoorWall
+    100006: Group 1
+    100008: Group 25
+    100010: Group 27
+    100012: Group 31
+    100014: Light Fixture
+    100016: Light Fixture 1
+    100018: Light Fixture 2
+    100020: Light Fixture 3
+    100022: Light Fixture 4
+    100024: Light Fixture 5
+    100026: Light Fixture 6
+    100028: Light Fixture 7
+    100030: LockedDoor
+    100032: OpenDoor
+    100034: TrapDoor
+    400000: BombDoor
+    400002: //RootNode
+    400004: DungeonDoorWall
+    400006: Group 1
+    400008: Group 25
+    400010: Group 27
+    400012: Group 31
+    400014: Light Fixture
+    400016: Light Fixture 1
+    400018: Light Fixture 2
+    400020: Light Fixture 3
+    400022: Light Fixture 4
+    400024: Light Fixture 5
+    400026: Light Fixture 6
+    400028: Light Fixture 7
+    400030: LockedDoor
+    400032: OpenDoor
+    400034: TrapDoor
+    2300000: BombDoor
+    2300002: DungeonDoorWall
+    2300004: Group 1
+    2300006: Group 25
+    2300008: Group 27
+    2300010: Group 31
+    2300012: Light Fixture
+    2300014: Light Fixture 1
+    2300016: Light Fixture 2
+    2300018: Light Fixture 3
+    2300020: Light Fixture 4
+    2300022: Light Fixture 5
+    2300024: Light Fixture 6
+    2300026: Light Fixture 7
+    2300028: LockedDoor
+    2300030: OpenDoor
+    2300032: TrapDoor
+    3300000: BombDoor
+    3300002: DungeonDoorWall
+    3300004: Group 1
+    3300006: Group 25
+    3300008: Group 27
+    3300010: Group 31
+    3300012: Light Fixture
+    3300014: Light Fixture 1
+    3300016: Light Fixture 2
+    3300018: Light Fixture 3
+    3300020: Light Fixture 4
+    3300022: Light Fixture 5
+    3300024: Light Fixture 6
+    3300026: Light Fixture 7
+    3300028: LockedDoor
+    3300030: OpenDoor
+    3300032: TrapDoor
+    4300000: Mesh Group 1
+    4300002: Mesh Light Fixture
+    4300004: Mesh DungeonDoorWall
+    4300006: Mesh OpenDoor
+    4300008: Mesh TrapDoor
+    4300010: Mesh Group 25
+    4300012: Mesh Group 27
+    4300014: Mesh LockedDoor
+    4300016: Mesh Group 31
+    4300018: Mesh BombDoor
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Chris_Hair]'
+    second: {fileID: 2100000, guid: b699408dc10e2bc479daa39cae5de91e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Chris_Shirt]'
+    second: {fileID: 2100000, guid: d4c1919bc2f96db418056f8726221e94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Chris_Shoe]'
+    second: {fileID: 2100000, guid: 103684783e62b5a448636e35128c7f25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _1
+    second: {fileID: 2100000, guid: 89743624a05add844a78cb03132b909d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _2
+    second: {fileID: 2100000, guid: 40ff122e4dac57147bda3e5d2cf511e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _3
+    second: {fileID: 2100000, guid: caceb243150184e479b4aeac6edba2df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _4
+    second: {fileID: 2100000, guid: d59adc34bec9bda48bcdd7aff3126aab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _5
+    second: {fileID: 2100000, guid: 89d58daa9b062f04f99d3a9636bb6c22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _6
+    second: {fileID: 2100000, guid: ad8f42dfcdf0f1c47aeb6213bbf98d7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat
+    second: {fileID: 2100000, guid: 1622235c5d9343e4497aa7679e605043, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

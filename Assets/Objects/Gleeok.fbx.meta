@@ -1,0 +1,433 @@
+fileFormatVersion: 2
+guid: bc2f921ffe9415e4ba50759f328bcdac
+timeCreated: 1519691707
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Lamp
+    100004: Plane
+    100006: Plane.001
+    100008: Plane.002
+    100010: Plane.003
+    100012: Sphere
+    100014: Sphere.001
+    100016: Sphere.002
+    100018: Sphere.003
+    100020: Sphere.004
+    100022: Sphere.005
+    100024: Sphere.006
+    100026: Sphere.007
+    100028: Sphere.008
+    100030: Sphere.009
+    100032: Sphere.010
+    100034: Sphere.011
+    100036: Sphere.012
+    100038: Sphere.013
+    100040: Sphere.014
+    100042: Sphere.015
+    100044: Sphere.016
+    100046: Body
+    100048: Head 2
+    100050: Head1
+    100052: Head3
+    100054: Head4
+    100056: Sphere1_1
+    100058: Sphere1_2
+    100060: Sphere1_3
+    100062: Sphere1_4
+    100064: Sphere2_1
+    100066: Sphere2_2
+    100068: Sphere2_3
+    100070: Sphere2_4
+    100072: Sphere3_1
+    100074: Sphere3_2
+    100076: Sphere3_3
+    100078: Sphere3_4
+    100080: Sphere4_1
+    100082: Sphere4_2
+    100084: Sphere4_3
+    100086: Sphere4_4
+    100088: Body 1
+    100090: Body.001
+    100092: Head
+    100094: Head 1
+    100096: Head 3
+    100098: Head_end
+    100100: Head_end 1
+    100102: Head_end 2
+    100104: Head_end 3
+    100106: LegLeft
+    100108: LegLeft_end
+    100110: LegRight
+    100112: LegRight_end
+    100114: NeckAndHead
+    100116: NeckAndHead.001
+    100118: NeckAndHead.002
+    100120: NeckAndHead.003
+    100122: NeckAndHead1
+    100124: NeckAndHead2
+    100126: NeckAndHead3
+    100128: NeckAndHead4
+    100130: NeckBase
+    100132: NeckBase 1
+    100134: NeckBase 2
+    100136: NeckBase 3
+    100138: NeckSeg1
+    100140: NeckSeg1 1
+    100142: NeckSeg1 2
+    100144: NeckSeg1 3
+    100146: NeckSeg2
+    100148: NeckSeg2 1
+    100150: NeckSeg2 2
+    100152: NeckSeg2 3
+    100154: NeckSeg3
+    100156: NeckSeg3 1
+    100158: NeckSeg3 2
+    100160: NeckSeg3 3
+    100162: NeckSeg4
+    100164: NeckSeg4 1
+    100166: NeckSeg4 2
+    100168: NeckSeg4 3
+    100170: TailTip
+    100172: TailTip_end
+    100174: TailTrunk
+    100176: WingLeft
+    100178: WingLeft_end
+    100180: WingRight
+    100182: WingRight_end
+    100184: FloatingHead1
+    100186: FloatingHead2
+    100188: FloatingHead3
+    400000: //RootNode
+    400002: Lamp
+    400004: Plane
+    400006: Plane.001
+    400008: Plane.002
+    400010: Plane.003
+    400012: Sphere
+    400014: Sphere.001
+    400016: Sphere.002
+    400018: Sphere.003
+    400020: Sphere.004
+    400022: Sphere.005
+    400024: Sphere.006
+    400026: Sphere.007
+    400028: Sphere.008
+    400030: Sphere.009
+    400032: Sphere.010
+    400034: Sphere.011
+    400036: Sphere.012
+    400038: Sphere.013
+    400040: Sphere.014
+    400042: Sphere.015
+    400044: Sphere.016
+    400046: Body
+    400048: Head 2
+    400050: Head1
+    400052: Head3
+    400054: Head4
+    400056: Sphere1_1
+    400058: Sphere1_2
+    400060: Sphere1_3
+    400062: Sphere1_4
+    400064: Sphere2_1
+    400066: Sphere2_2
+    400068: Sphere2_3
+    400070: Sphere2_4
+    400072: Sphere3_1
+    400074: Sphere3_2
+    400076: Sphere3_3
+    400078: Sphere3_4
+    400080: Sphere4_1
+    400082: Sphere4_2
+    400084: Sphere4_3
+    400086: Sphere4_4
+    400088: Body 1
+    400090: Body.001
+    400092: Head
+    400094: Head 1
+    400096: Head 3
+    400098: Head_end
+    400100: Head_end 1
+    400102: Head_end 2
+    400104: Head_end 3
+    400106: LegLeft
+    400108: LegLeft_end
+    400110: LegRight
+    400112: LegRight_end
+    400114: NeckAndHead
+    400116: NeckAndHead.001
+    400118: NeckAndHead.002
+    400120: NeckAndHead.003
+    400122: NeckAndHead1
+    400124: NeckAndHead2
+    400126: NeckAndHead3
+    400128: NeckAndHead4
+    400130: NeckBase
+    400132: NeckBase 1
+    400134: NeckBase 2
+    400136: NeckBase 3
+    400138: NeckSeg1
+    400140: NeckSeg1 1
+    400142: NeckSeg1 2
+    400144: NeckSeg1 3
+    400146: NeckSeg2
+    400148: NeckSeg2 1
+    400150: NeckSeg2 2
+    400152: NeckSeg2 3
+    400154: NeckSeg3
+    400156: NeckSeg3 1
+    400158: NeckSeg3 2
+    400160: NeckSeg3 3
+    400162: NeckSeg4
+    400164: NeckSeg4 1
+    400166: NeckSeg4 2
+    400168: NeckSeg4 3
+    400170: TailTip
+    400172: TailTip_end
+    400174: TailTrunk
+    400176: WingLeft
+    400178: WingLeft_end
+    400180: WingRight
+    400182: WingRight_end
+    400184: FloatingHead1
+    400186: FloatingHead2
+    400188: FloatingHead3
+    2100000: No Name
+    2300000: Plane
+    2300002: Plane.001
+    2300004: Plane.002
+    2300006: Plane.003
+    2300008: Sphere
+    2300010: Sphere.001
+    2300012: Sphere.002
+    2300014: Sphere.003
+    2300016: Sphere.004
+    2300018: Sphere.005
+    2300020: Sphere.006
+    2300022: Sphere.007
+    2300024: Sphere.008
+    2300026: Sphere.009
+    2300028: Sphere.010
+    2300030: Sphere.011
+    2300032: Sphere.012
+    2300034: Sphere.013
+    2300036: Sphere.014
+    2300038: Sphere.015
+    2300040: Sphere.016
+    2300042: Body
+    2300044: Head 2
+    2300046: Head1
+    2300048: Head3
+    2300050: Head4
+    2300052: Sphere1_1
+    2300054: Sphere1_2
+    2300056: Sphere1_3
+    2300058: Sphere1_4
+    2300060: Sphere2_1
+    2300062: Sphere2_2
+    2300064: Sphere2_3
+    2300066: Sphere2_4
+    2300068: Sphere3_1
+    2300070: Sphere3_2
+    2300072: Sphere3_3
+    2300074: Sphere3_4
+    2300076: Sphere4_1
+    2300078: Sphere4_2
+    2300080: Sphere4_3
+    2300082: Sphere4_4
+    2300084: Body.001
+    2300086: NeckAndHead
+    2300088: NeckAndHead.001
+    2300090: NeckAndHead.002
+    2300092: NeckAndHead.003
+    3300000: Plane
+    3300002: Plane.001
+    3300004: Plane.002
+    3300006: Plane.003
+    3300008: Sphere
+    3300010: Sphere.001
+    3300012: Sphere.002
+    3300014: Sphere.003
+    3300016: Sphere.004
+    3300018: Sphere.005
+    3300020: Sphere.006
+    3300022: Sphere.007
+    3300024: Sphere.008
+    3300026: Sphere.009
+    3300028: Sphere.010
+    3300030: Sphere.011
+    3300032: Sphere.012
+    3300034: Sphere.013
+    3300036: Sphere.014
+    3300038: Sphere.015
+    3300040: Sphere.016
+    3300042: Body
+    3300044: Head 2
+    3300046: Head1
+    3300048: Head3
+    3300050: Head4
+    3300052: Sphere1_1
+    3300054: Sphere1_2
+    3300056: Sphere1_3
+    3300058: Sphere1_4
+    3300060: Sphere2_1
+    3300062: Sphere2_2
+    3300064: Sphere2_3
+    3300066: Sphere2_4
+    3300068: Sphere3_1
+    3300070: Sphere3_2
+    3300072: Sphere3_3
+    3300074: Sphere3_4
+    3300076: Sphere4_1
+    3300078: Sphere4_2
+    3300080: Sphere4_3
+    3300082: Sphere4_4
+    3300084: Body.001
+    3300086: NeckAndHead
+    3300088: NeckAndHead.001
+    3300090: NeckAndHead.002
+    3300092: NeckAndHead.003
+    4300000: Plane.003
+    4300002: Sphere.016
+    4300004: Sphere.015
+    4300006: Sphere.014
+    4300008: Sphere.013
+    4300010: Sphere.012
+    4300012: Sphere.011
+    4300014: Sphere.010
+    4300016: Sphere.009
+    4300018: Plane.002
+    4300020: Plane.001
+    4300022: Sphere.008
+    4300024: Sphere.007
+    4300026: Sphere.006
+    4300028: Sphere.005
+    4300030: Sphere.004
+    4300032: Sphere.003
+    4300034: Sphere.002
+    4300036: Sphere.001
+    4300038: Sphere
+    4300040: Plane
+    4300042: Head4
+    4300044: Sphere4_1
+    4300046: Sphere4_2
+    4300048: Sphere4_3
+    4300050: Sphere4_4
+    4300052: Sphere2_4
+    4300054: Sphere2_3
+    4300056: Sphere2_2
+    4300058: Sphere2_1
+    4300060: Head 2
+    4300062: Head1
+    4300064: Sphere1_1
+    4300066: Sphere1_2
+    4300068: Sphere1_3
+    4300070: Sphere1_4
+    4300072: Sphere3_4
+    4300074: Sphere3_3
+    4300076: Sphere3_2
+    4300078: Sphere3_1
+    4300080: Body
+    4300082: Head3
+    4300084: NeckAndHead.003
+    4300086: NeckAndHead.002
+    4300088: NeckAndHead.001
+    4300090: NeckAndHead
+    4300092: Body.001
+    4300094: FloatingHead3
+    4300096: FloatingHead2
+    4300098: FloatingHead1
+    9500000: //RootNode
+    10800000: Lamp
+    11100000: //RootNode
+    13700000: Body.001
+    13700002: NeckAndHead
+    13700004: NeckAndHead.001
+    13700006: NeckAndHead.002
+    13700008: NeckAndHead.003
+    13700010: FloatingHead1
+    13700012: FloatingHead2
+    13700014: FloatingHead3
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.75
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,65 @@
+# Unity-generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Local toolchain and package-manager caches
+.unity-toolchain/
+UnityPackageManager/
+
+# Builds and exported players
+[Bb]uild/
+[Bb]uilds/
+Complete Build/
+
+# IDE/editor-generated files
+.vs/
+.vscode/
+.idea/
+ExportedObj/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.unityproj
+*.tmp
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity/OS transient files
+sysinfo.txt
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Crash reports and diagnostics produced during this migration
+*.log
+*.tsv
+manhandla-hierarchy.txt
+
+# Local archives and installable build artifacts
+*.zip
+*.apk
+*.aab
+
+# Local shortcuts/configuration
+*.lnk
+ExternalCamera.cfg
+
+# Addressables generated state
+/ServerData/
+/Assets/StreamingAssets/aa.meta
+/Assets/StreamingAssets/aa/

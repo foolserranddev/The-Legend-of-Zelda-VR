@@ -1,0 +1,4 @@
+{
+  "name": "ZeldaVR.LegacyVRTK.Disabled",
+  "defineConstraints": ["ZELDA_ENABLE_LEGACY_VRTK"]
+}

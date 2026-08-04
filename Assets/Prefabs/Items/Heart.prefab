@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1205967233321646}
+  m_IsPrefabParent: 1
+--- !u!1 &1205967233321646
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4822382986986910}
+  - component: {fileID: 33721467429147462}
+  - component: {fileID: 23864722117175474}
+  - component: {fileID: 114751747957850106}
+  - component: {fileID: 114152448125407534}
+  - component: {fileID: 65965937506972592}
+  m_Layer: 0
+  m_Name: Heart
+  m_TagString: Collectible
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4822382986986910
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1205967233321646}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 112.41343, y: 1.9959714, z: 136.6373}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23864722117175474
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1205967233321646}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 06984aa1d8a9d174a9a58e8707febd25, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33721467429147462
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1205967233321646}
+  m_Mesh: {fileID: 4300002, guid: 4d16d0d1bda24734da896ddeab0559c3, type: 3}
+--- !u!65 &65965937506972592
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1205967233321646}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0046559144, y: 0.0048851646, z: 0.0066814893}
+  m_Center: {x: 0.00006217956, y: 0.002768173, z: 0.00007995605}
+--- !u!114 &114152448125407534
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1205967233321646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82fe4d7af462a143a8006f0d50e23a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SwapImages:
+  - {fileID: 2100000, guid: 06984aa1d8a9d174a9a58e8707febd25, type: 2}
+  - {fileID: 2100000, guid: b0240546ae608d84995edcb24389c2a8, type: 2}
+  SwapSprites: []
+  timeDelay: 0.1
+  stopWhenDone: 0
+  awaitTrigger: 0
+  stop: 0
+--- !u!114 &114751747957850106
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1205967233321646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b86e50110e49c214dac19face3c0d83a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OneTimeCollectible: 0
+  item: 0
+  amount: 1
+  collectSound: {fileID: 8300000, guid: f638558092c39d746aeea95ec905430a, type: 3}
+  ArrowOrBoomerangCanCollect: 1
+  heightOffset: 0
+  jiggleheight: 0.25
+  timeToPeakHeight: 1
+  rotationPerSecond: 90
+  TimeToDestroy: 10
+  RotateAround: {x: 0, y: 1, z: 0}
+  DontDestroy: 0
+  Destroyer: {fileID: 0}
+  OpenTrapDoors: []
+  restartMusic: 0

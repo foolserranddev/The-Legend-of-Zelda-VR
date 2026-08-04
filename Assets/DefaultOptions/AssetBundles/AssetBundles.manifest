@@ -1,0 +1,13 @@
+ManifestFileVersion: 0
+CRC: 2258965045
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: dungeonflooring
+      Dependencies: {}
+    Info_1:
+      Name: dungeonrooms
+      Dependencies: {}
+    Info_2:
+      Name: enemies
+      Dependencies: {}
