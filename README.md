@@ -4,7 +4,9 @@ A virtual-reality reimagining of the original *The Legend of Zelda*, designed to
 
 ## Gameplay Walkthroughs
 
-See the game in action through the development walkthroughs on the [Fool's Errand Gaming YouTube channel](https://www.youtube.com/@foolserrandgaming6082/videos). These videos are also useful references for the intended look, scale, interactions, and behavior when evaluating a contribution or reporting a regression.
+[![Watch The Legend of Zelda VR gameplay walkthrough](https://img.youtube.com/vi/hC0rS5lguIw/maxresdefault.jpg)](https://www.youtube.com/watch?v=hC0rS5lguIw&t=15s)
+
+[Watch the featured gameplay walkthrough](https://www.youtube.com/watch?v=hC0rS5lguIw&t=15s), then visit the [Fool's Errand Gaming YouTube channel](https://www.youtube.com/@foolserrandgaming6082/videos) for more videos. The walkthroughs are useful references for the intended look, scale, interactions, and behavior when evaluating a contribution or reporting a regression.
 
 ## Contributions Welcome
 
