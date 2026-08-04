@@ -8,6 +8,27 @@ A virtual-reality reimagining of the original *The Legend of Zelda*, designed to
 
 [Watch the featured gameplay walkthrough](https://www.youtube.com/watch?v=hC0rS5lguIw&t=15s), then visit the [Fool's Errand Gaming YouTube channel](https://www.youtube.com/@foolserrandgaming6082/videos) for more videos. The walkthroughs are useful references for the intended look, scale, interactions, and behavior when evaluating a contribution or reporting a regression.
 
+## Try the Quest Preview
+
+Download `ZeldaVR.apk` from the [latest GitHub Release](../../releases/latest). This is a sideloaded preview build rather than a Meta Horizon Store release, so the headset must have Developer Mode enabled.
+
+### Install with SideQuest
+
+1. Follow the [SideQuest setup guide](https://sidequestvr.com/setup-howto) to enable Developer Mode and connect the headset to a computer.
+2. Put on the headset and accept the USB debugging prompt. Selecting **Always allow from this computer** makes future updates easier.
+3. In SideQuest, choose **Install APK file from folder** and select the downloaded `ZeldaVR.apk`.
+4. In the headset, open the App Library and select **Unknown Sources** from its source/filter menu, then launch **The Legend of Zelda VR**.
+
+### Install with ADB
+
+Users who already have Android Platform Tools configured can connect the headset, approve USB debugging, and run:
+
+```text
+adb install -r ZeldaVR.apk
+```
+
+The `-r` option updates an existing installation while retaining its application data. If installation or launching fails, include the Quest model, Horizon OS version, installation method, and any displayed error when opening an issue.
+
 ## Contributions Welcome
 
 Support, fixes, and improvements are welcome—especially:
